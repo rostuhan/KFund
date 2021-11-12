@@ -1,0 +1,19 @@
+body {
+    background-color: #ffaa00;
+    font-family: "Comic Sans", cursive;
+}
+td, th {
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    transition-duration: 1s;
+}
+td:hover {
+    background: rgb(0,255,0);
+    background: linear-gradient(140deg, rgba(0,255,0,1) 60%, rgba(255,170,0,1) 100%);
+    width: 350px;
+    height: 130px; 
+}
+th:hover {
+    font-size: 40px;
+}
