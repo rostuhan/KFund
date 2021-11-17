@@ -1,6 +1,12 @@
-.form1 {
-    width: 50;
-    position: center;
+td:nth-child(2) {
+    background-color: lime;
+    width: 50%;
+}
+.sampletext {
+    font-size: larger;
+    margin-bottom: 30%;
+}
+.table1 {
     margin-top: 10%;
     text-align: center;
 }
