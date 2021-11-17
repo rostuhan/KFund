@@ -1,0 +1,26 @@
+.block {
+    left: 10px;
+    top: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sta {
+    position: static;
+}
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.fix {
+    position: fixed;
+}
+.sti {
+    
+    position: sticky;
+}
