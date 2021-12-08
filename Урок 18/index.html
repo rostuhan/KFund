@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <h1 align="center">Завдання</h1>
+    <div class="uk-child-width-1-2@s" style="margin-top: 60px;" uk-grid>
+        <div>
+            <h4 align="center">Не зроблено</h4>
+            <div uk-sortable="group: sortable-group" class="not-done uk-animation-scale-up">
+                <div class="uk-margin">
+                    <div class="uk-card uk-card-default uk-card-body uk-card-small">Програмування</div>
+                </div>
+                <div class="uk-margin">
+                    <div class="uk-card uk-card-default uk-card-body uk-card-small">Домашня робота</div>
+                </div>
+                <div class="uk-margin">
+                    <div class="uk-card uk-card-default uk-card-body uk-card-small">Попоїти попугая</div>
+                </div>
+                <div class="uk-margin">
+                    <div class="uk-card uk-card-default uk-card-body uk-card-small">Покормити попугая</div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4 align="center">Зроблено</h4>
+            <div uk-sortable="group: sortable-group" class="done uk-animation-scale-up">
+                <div class="uk-margin">
+                    <div class="uk-card uk-card-default uk-card-body uk-card-small">Сходити в школу</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

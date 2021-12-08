@@ -1,0 +1,8 @@
+.not-done .uk-card {
+    background-color: red;
+    color: white;
+}
+.done .uk-card {
+    background-color: limegreen;
+    color: white;
+}
