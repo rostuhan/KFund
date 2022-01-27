@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+    margin: 0px;
+}
+.header {
+    width: 1440px;
+    height: 100px;
+}
+.logo {
+    position: absolute;
+    width: 131px;
+    height: 72px;
+    left: 100px;
+    top: 17px;
+    background: url("Images/logo.png");
+}
+.bar {
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    top: 31px;
+    background: #E2E2E2;
+}
+.bar1 {
+    left: 258px;
+}
+.bar2 {
+    left: 339px;
+}
+.bar3 {
+    left: 465px;
+}
+.bar4 {
+    left: 601px;
+}
+.bar5 {
+    left: 826px;
+}
+.ua {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 285px;
+    top: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+.ru {
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    left: 279px;
+    top: 51px;
+    background: #4AD295;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+.usd {
+    position: absolute;
+    height: 19px;
+    left: 365px;
+    top: 31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+}
+.eur {
+    position: absolute;
+    height: 19px;
+    left: 365px;
+    top: 54px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+}
+.facebook {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    left: 496px;
+    top: 42px;
+    background: url("Images/fb.png");
+}
+.instagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 521px;
+    top: 42px;
+    background: url("Images/instagram.png");
+}
+.youtube {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 556px;
+    top: 43px;
+    background: url("Images/yt.png");
+}
+.number1 {  
+    position: absolute;
+    width: 128px;
+    height: 21px;
+    left: 627px;
+    top: 29px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393939;
+}
+.number2 {  
+    position: absolute;
+    width: 128px;
+    height: 21px;
+    left: 627px;
+    top: 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393939;
+}
+.smartphone {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 762px;
+    top: 32px;
+    background: url("Images/smartphone.png");
+}
+.maistra {
+    position: absolute;
+    width: 240px;
+    height: 55px;
+    left: 862px;
+    top: 23px;
+    background: #EFF3F6;
+    border-radius: 2px;
+}
+.maistra-red {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1047px;
+    top: 23px;
+    background: #DD4053;
+    border-radius: 2px;
+}
+.maistra-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1064px;
+    top: 40px;
+    background: url("Images/book.png");
+}
+.maistra-text {
+    position: absolute;
+    height: 20px;
+    left: 882px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.turi {
+    position: absolute;
+    width: 205px;
+    height: 55px;
+    left: 1132px;
+    top: 23px;
+    background: #EFF3F6;
+    border-radius: 2px;
+}
+.turi-green {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1282px;
+    top: 23px;
+    background: #4AD295;
+    border-radius: 2px;
+}
+.turi-icon {
+    position: absolute;
+    width: 19px;
+    height: 17.17px;
+    left: 1300px;
+    top: 42px;
+    background: url("Images/search.png");
+}
+.turi-text {
+    position: absolute;
+    height: 20px;
+    left: 1147px;
+    top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.header-closer {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 100px;
+    background: #D0D0D0;
+}
+.bg1 {
+    position: absolute;
+    width: 1440px;
+    height: 490px;
+    left: 0px;
+    top: 170px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%), url("Images/bg1.png");
+}
+.search {
+    position: absolute;
+    width: 19px;
+    height: 17.17px;
+    left: 174px;
+    top: 129px;
+    background: url("Images/search.png");
+}
+.hotels {
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    left: 253px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #171717;
+}
+.countries {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 369px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.avia {
+    position: absolute;
+    width: 37px;
+    height: 19px;
+    left: 494px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.catalog {
+    position: absolute;
+    height: 19px;
+    left: 601px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.agents {
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    left: 760px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #616161;
+}
+.about {
+    position: absolute;
+    height: 19px;
+    left: 897px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #616161;
+}
+.blog {
+    position: absolute;
+    width: 34px;
+    height: 19px;
+    left: 1014px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.faq {
+    position: absolute;
+    width: 29px;
+    height: 19px;
+    left: 1108px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.contacts {
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 1196px;
+    top: 128px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #616161;
+}
+.bg1-title {
+    position: absolute;
+    width: 725px;
+    height: 102px;
+    left: 195px;
+    top: 335px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.price {
+    position: absolute;
+    height: 32px;
+    left: 222px;
+    top: 280px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.rec {
+    position: absolute;
+    width: 249px;
+    height: 45px;
+    left: 199px;
+    top: 274px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.btn {
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    left: 200px;
+    top: 477px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+}
+.details {
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    left: 286px;
+    top: 495px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
